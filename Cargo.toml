@@ -1,0 +1,16 @@
+[package]
+name = "count_repo_tokens"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tiktoken-rs = "0.6.0"
+walkdir = "*"
+
+[[bin]]
+name = "count_repo_tokens"
+path = "src/count_repo_tokens.rs"
+
+[[bin]]
+name = "count_folder"
+path = "src/count_folder.rs"
