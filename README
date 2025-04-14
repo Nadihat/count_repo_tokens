@@ -1,0 +1,4 @@
+Counts repo and folder tokens with Rust.
+Made with chatgpt-4o AI model in OpenRouter.
+
+Use o1-count for counting in folders using the o200k tokenizer.
